@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================================================
+         Dark Ember — App Color System
+         ================================================
+
+         Backgrounds (darkest → most elevated)
+         bg_deep      : near-black warm base (status/nav bar)
+         bg_base      : main screen background
+         bg_surface   : cards, message list surface
+         bg_elevated  : input bar, headers, raised elements
+         ================================================ -->
+
+    <color name="bg_deep">#0C0804</color>
+    <color name="bg_base">#130D05</color>
+    <color name="bg_surface">#1D1508</color>
+    <color name="bg_elevated">#27190A</color>
+
+    <!-- ================================================
+         Primary — Amber
+         amber_primary : hero accent, user bubbles, CTA button, send icon bg
+         amber_light   : gradient highlight end
+         amber_dark    : gradient shadow end, pressed states
+         amber_subtle  : very dark tint for large containers
+         ================================================ -->
+
+    <color name="amber_primary">#E8981E</color>
+    <color name="amber_light">#F5B53A</color>
+    <color name="amber_dark">#9E6500</color>
+    <color name="amber_subtle">#3D2808</color>
+
+    <!-- ================================================
+         Text
+         text_cream         : primary text on all dark surfaces
+         text_warm          : secondary / timestamp / labels on dark
+         text_hint          : placeholder / hint on dark inputs
+         text_on_amber      : primary text on amber backgrounds
+         text_on_amber_muted: secondary/timestamp text on amber
+         ================================================ -->
+
+    <color name="text_cream">#EEE0C0</color>
+    <color name="text_warm">#A07A40</color>
+    <color name="text_hint">#8A6030</color>
+    <color name="text_on_amber">#1C0900</color>
+    <color name="text_on_amber_muted">#4A2C05</color>
+
+    <!-- ================================================
+         Borders
+         ================================================ -->
+
+    <color name="border_warm">#2E2010</color>
+
+    <!-- ================================================
+         Feedback
+         ================================================ -->
+
+    <color name="color_error">#FF6B6B</color>
+
+    <!-- Legacy keep-alive (referenced by system / launcher) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>
